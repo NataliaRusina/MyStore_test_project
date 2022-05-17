@@ -1,0 +1,57 @@
+.prodItem {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border-top: solid cadetblue 1px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    height: 120px;
+    min-height: 120px;
+    padding: 20px;
+
+}
+
+.prodItem:hover {
+    background-color: bisque;
+}
+
+.prodChoosen {
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    border: solid cadetblue 1px;
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.cardPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.imgSmall {
+    width: 100px;
+    height: 100px;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+button {
+    background-color: cadetblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
